@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+span{
+    color: rgb(74, 74, 184);
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+nav ul li a{
+    color: aliceblue;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+nav ul li a:hover{
+    color:  rgb(74, 74, 184);
+    transition: 0.4s;
+}
+.btn{
+    min-width: 20px;
+}
+.hero{
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(images/pic2.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 70vh;
+    justify-content: center;
+    color: white;
+    z-index: 2;
+    background-attachment: fixed;
+}
+
+.logo{
+    font-size: 35px;
+    color: white;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.joinbtn{
+    background: rgb(74, 74, 184);
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    padding: 10px 25px;
+    transition: 0.4s;
+
+}
+
+.joinbtn:hover{
+    transform: scale(1.2);
+}
+
+.content{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+.name{
+    color: white;
+    font-size: 50px;
+    
+
+}
+h4{
+    color: rgb(231, 235, 245);
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+h3{
+    color: rgb(96, 40, 226);
+    font-size: 20px;
+
+}
+.newsletter form{
+    max-width: 100%;
+    width: 380px;
+    
+
+}
+.carousel-item img{
+    position: relative;
+}
+.main{
+    background-color: black;
+    color: rgb(247, 241, 255);
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+   
+
+    
+}
+.abt{
+    color: rgb(243, 243, 243);
+    font-size: 60px;
+    margin-left: 40px; 
+    
+       
+}
+.main img{
+    width: 400px;
+    height: 500px;
+  
+    margin-left: 3%;
+}
+
+.container{
+    margin-top:60px;
+}
+p{
+    line-height: 28px;
+
+    
+
+}
